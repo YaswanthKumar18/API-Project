@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LabTest Form</title>
+    <link rel="stylesheet" href="css2.css">
+</head>
+<body>
+    <div class="container">
+        <div class="front">
+            <p>1. Your Contact Details</p>
+            <form>
+                <table>
+                    <tr>
+                        <td>
+                            <input type="text" placeholder="Full Name">
+                            <input type="text" placeholder="Patient Id If Exists">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="text" placeholder="Contact Number">
+                            <input type="text" placeholder="Email">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><p>2. Address</p></td>
+                    </tr>
+            
+                    <tr>
+                        <td>
+                            <input type="text" placeholder="House Number">
+                            <input type="text" placeholder="Street">
+                        </td>        
+                     </tr>
+                     <tr>
+                         <td><input type="textArea" placeholder="Area"></td>
+                    </tr>
+                    <tr>
+                        <td><h4>District</h4></td>
+                    </tr>
+                    <tr>
+                        <td>
+                        <select name="district" id="option">
+                            <option>Bangalore</option>
+                            <option>kolkata</option>
+                            <option>Dimapur</option>
+                            <option>Silchar</option>
+                        </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><p>3. Choose the Test Type</p></td>
+                        <tr>
+                            <td>(Check atleast one box without fail)</td>   
+                        </tr>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="CBC">
+                            <label for="CBC">CBC</label><br>
+                            <input type="checkbox" name="Complete Urine">
+                            <label for="Complete Urine">Complete Urine</label><br>
+                            <input type="checkbox" name="Lipid Profile">
+                            <label for="Lipid Profile">Lipid Profile</label><br>
+                            <input type="checkbox" name="Thyroid">
+                            <label for="Thyroid">Thyroid Stimulating Hormone (TSH)</label><br>
+                            <input type="checkbox" name="Glucose Test">
+                            <label for="Glucose Test">Glucose Test</label><br>
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><p>4. Do you want a hard copy of the report also?</p></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" name="copy" value="Yes">Yes
+                            <input type="radio" name="copy" value="Yes">No
+                        </td>
+                        
+                    </tr>
+                   <tr>
+                       <td><p>5.Select Your Comfortable Date and Time</p></td>
+                   </tr>
+                   <tr>
+                       <td><input type="date"></td>
+                   </tr>
+                   <tr>
+                        <td><input type="time"></td>
+                    </tr>
+               
+                    
+                    
+                
+                </table>
+            </form>
+            <div class="btn">
+                <button>Reset</button>
+                <button>submit</button>
+            </div>
+        </div>
+        <div class="back">
+            <img src="Lab-Test/lab-test.jpg">
+        </div>
+    </div>
+</body>
+</html>
